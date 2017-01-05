@@ -1,6 +1,6 @@
 # DAY 01
 
-I'm James, your instructor for JTerm. I graduated from NYUAD 2 years ago with a major in film. When I'm not supporting Dennis' JTerm course I am the lab manager for the Interactive Media lab in the Arts Center, where we try to blend the tools of computer science, engineering, and art together.
+I'm James, your instructor for JTerm. I graduated from NYUAD 2 years ago with a major in film. When I'm not supporting this JTerm course I am the lab manager for the Interactive Media lab in the Arts Center, where we try to blend the tools of computer science, engineering, and art together.
 
 Aside from my major path and current work, I'm interested in Visual Effects & Animation, and Space as humanity's next challenge.
 
@@ -14,10 +14,15 @@ Aside from my major path and current work, I'm interested in Visual Effects & An
 ### Non-CS-Specific Python Project Links
 
 [Literature](https://opensource.com/business/15/10/jane-austen-on-python)
+
 [Econ](http://quant-econ.net/)
+
 [More Econ](http://francescopochetti.com/stock-market-prediction-part-introduction/)
+
 [VisArts](https://processing.org/)
+
 [Philosophy](http://www.amazon.com/Monty-Python-Philosophy-Popular-Culture/dp/0812695933)
+
 [Finally](http://www.skilledup.com/articles/reasons-to-learn-python)
 
 ## Class content 

@@ -3,10 +3,10 @@
 ## Fizzbuzz challenge 
 
 Count to 100.
-If the number is divisible by 3, print "fizz"
-If the number is divisible by 5, print "buzz".
-If the number is divisible by 3 AND 5, print "fizzbuzz"
-Otherwise, just print the number.
++ If the number is divisible by 3, print "fizz" only.
++ If the number is divisible by 5, print "buzz" only.
++ If the number is divisible by 3 AND 5, print "fizzbuzz" only.
++ Otherwise, just print the number.
 
 
 ## Guessing Game

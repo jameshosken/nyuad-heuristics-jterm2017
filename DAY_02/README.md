@@ -36,7 +36,7 @@ What's the minimum number of guesses required to guarantee a win for the player?
 1. Printing 2.0 - Example 01_printing2
   - Use `str(myInt)` to convert numbers into strings, and `int(myString)` to convert strings into integers.
   - Note that if the conversion cannot be made, there will be an error.
-  - `print("string", end="")` prevents a newline after print.
+  - `print("string", end="")` prevents a newline after print. It's important to end with a normal `print()`, though, or it'll never print
   - Exercise 01
 
 2. Input 2.0 - Example 02_input2

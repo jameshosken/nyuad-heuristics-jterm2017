@@ -22,3 +22,5 @@ for row in range(rows):
                 print(" ", end="")
             else:
                 print("X", end="")
+                
+    print()

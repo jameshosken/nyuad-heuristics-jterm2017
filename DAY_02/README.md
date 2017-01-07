@@ -1,5 +1,5 @@
 # DAY 02
-```python```
+
 ## Content Review 
 
 1. Types of data

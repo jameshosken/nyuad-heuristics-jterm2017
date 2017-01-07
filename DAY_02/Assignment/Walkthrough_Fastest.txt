@@ -1,0 +1,3 @@
+If we want to guess in as few rounds as possible, what's the best strategy? A random guess or something more staregic?
+		If we guessed 5 first, and the answer was lower, then it'd be a short round. But chances are it'd be higher, and we'd still have to sift through 995 possible choices. 
+		Choosing the halfway point between lowest and highest means whether the answer is lower or higher than the guess, on average we're evening out our chances, and thus our number of rounds.

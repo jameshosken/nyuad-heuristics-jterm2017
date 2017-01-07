@@ -1,0 +1,19 @@
++ Mathematic ADDITION or string CONCATENATION
+- Mathematic SUBTRACTION
+* Mathematic MULTIPLICATION
+/ Mathematic DIVISION
+// Mathematic INTEGER DIVISION (Will chop off any decimal points).
+% Mathematic MODULO (Gives you the REMAINDER of the division.)
+
+= ASSIGN (Assigns right value to left name) 
+	x = 2, so name x now has value 2
+
+Boolean operators (will return True or False):
+
+== COMPARATIVE EQUALS. Is the thing on the left the same as the thing on the right?
+!= NOT EQUALS. Is the thing on the left different to the thing on the right?
+
+> GREATER THAN
+< LESS THAN
+>= GREATER THAN OR EQUAL TO
+<= GREATER THAN OR EQUAL TO

@@ -1,0 +1,17 @@
+Walkthrough:
+	
+	Here's one way the computer can find out the number:
+		1) Pick a number between the lowest possible (1) and the highest possible (1000). Is it correct? If yes, WIN! If no, move to 2)
+		2) Ask if the number is greater than or less than the guess. If greater than, go to 3. Else if less than, go to 4.
+		3) Pick a new number between the lowest possible (now the previous guess) and the highest possble (still 1000). Repeat steps above
+		4) Pick a new number between the lowest possible (still 1) and the highest possble (now the previous guess). Repeat steps above
+
+
+	
+
+	So, how do we implement that?
+
+	- We need a variable to store the current highest possible (at first 1000), and the current lowest possible (at first 0)
+	- We need an input to say whether the guess is higher, lower or equal.
+	- We need a series of if statements to modify the higher/lower values as needed.
+	- We need a loop system to repeat until the guess is correct.

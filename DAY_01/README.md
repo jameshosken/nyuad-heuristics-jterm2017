@@ -32,13 +32,13 @@ Aside from my major path and current work, I'm interested in Visual Effects & An
 A 'name' in python is a sort of container for different types of things (numbers, letters, words). You can assign the number 2 to a name, for example, by typing `mynumber = 2`. Some different types of things than can be attached to a name are:
 
 1. Strings. Any letter, number, or punctuation mark. Identified by single or double quotes. Example: "abcDEF123!@#"
-..* You can add strings together using '+'. For example: `"Hello" + "World"` becomes `"HelloWorld"`
+  - You can add strings together using '+'. For example: `"Hello" + "World"` becomes `"HelloWorld"`
 2.Integers: Whole numbers. Example: 123
-..* You can use mathematical operations on integers. Some common ones are + - / *
-..*Note that if you divide an integer by another integer, the answer will be cut off after the decimal point.
+  - You can use mathematical operations on integers. Some common ones are + - / *
+  - Note that if you divide an integer by another integer, the answer will be cut off after the decimal point.
 3. Floating point numbers ('floats' for short). A number with a decimal point. Examples: 1.23, 0.001, 42.0
-..* You can use mathematical operations on floats as well. 
-..*Note that if you add/subtract/divide/multiply a float with an integer, the answer will be given as a float.
+  - You can use mathematical operations on floats as well. 
+  - Note that if you add/subtract/divide/multiply a float with an integer, the answer will be given as a float.
 
 #### Counting with computers.
 

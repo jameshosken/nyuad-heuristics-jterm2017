@@ -3,9 +3,9 @@
 ## Content Review 
 
 1. Types of data
-..* String
-..* Integer
-..* Float
+  - String
+  - Integer
+  - Float
 2. `print()` statement to output data
 3. `input()` to input data and interact with users
 4. `for i in range(n)` to do certain code *n* times
@@ -34,22 +34,22 @@ What's the minimum number of guesses required to guarantee a win for the player?
 ## Class Content
 
 1. Printing 2.0 - Example 01_printing2
-..* Use `str(myInt)` to convert numbers into strings, and `int(myString)` to convert strings into integers.
-..* Note that if the conversion cannot be made, there will be an error.
-..* `print("string", end="")` prevents a newline after print.
-..* Exercise 01
+  - Use `str(myInt)` to convert numbers into strings, and `int(myString)` to convert strings into integers.
+  - Note that if the conversion cannot be made, there will be an error.
+  - `print("string", end="")` prevents a newline after print.
+  - Exercise 01
 
 2. Input 2.0 - Example 02_input2
-..* Similarly, `int(input("My Question"))` will convert inputted data to integers. 
-..* Exercise 02
+  - Similarly, `int(input("My Question"))` will convert inputted data to integers. 
+  - Exercise 02
 
-3. Loops 2.0 - Example 04_whileloops
-..* For loops are great for counting a specified amount, but what if you don't know how long you need to loop for? What if, for example, you wanted to loop a try/except statement until the data is correct. Use `while(condition)` loops.
-..* Exercise 03
+3. Loops 2.0 - Example 03_whileloops
+  - For loops are great for counting a specified amount, but what if you don't know how long you need to loop for? What if, for example, you wanted to loop a try/except statement until the data is correct. Use `while(condition)` loops.
+  - Exercise 03
 
 4. Error handling - Example 04_errorhandling
-..* You don't want your program crashing and giving the user crazy red messages if something goes wrong. 
-..* Using `try:` and `except:` is a way to hide these errors from your users. 
+  - You don't want your program crashing and giving the user crazy red messages if something goes wrong. 
+  - Using `try:` and `except:` is a way to hide these errors from your users. 
 
 ## In Class Exercises
 

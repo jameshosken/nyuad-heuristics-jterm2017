@@ -1,5 +1,5 @@
 # DAY 02
-
+```python```
 ## Content Review 
 
 1. Types of data
@@ -11,7 +11,7 @@
 4. `for i in range(n)` to do certain code *n* times
 5. `if(a == b):` to run code only under certain conditions
 6. `x = 3%2` to assign *x* as the remainder of 3/2.
-7. `x = random.randint(min,max)` to assign *x* a random number
+7. `x = random.randint(min,max)` to assign *x* a random number. `import random` first
 
 
 ## Assignment review

@@ -1,0 +1,20 @@
+Best Change Challenge:
+
+How can a given amount of money be made with the least number of coins of given denominations 
+	
+Let's break it down. You will be given 2 things: 
+
+	1) A list of 3 coins of certain denominations (e.g. 1c,5c,10c)
+	2) A certain amount of money.
+	
+Goal: You have to figure out how to get to that amount using the least number of coins.
+	
+Go.
+
+
+Hints:
+
+Stuck on where to start?
+
+One solution looks at the highest possible coin value that can fit into the number, and uses it.
+If there's still change left, it tries again. 

@@ -15,4 +15,6 @@ lines = f.readlines()
 
 for i in range(len(lines)):
     print("Line " + str(i) + " is: " + lines[i])
+    
+
 f.close()

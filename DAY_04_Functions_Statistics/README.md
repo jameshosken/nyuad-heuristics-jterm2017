@@ -17,7 +17,12 @@
   - Functions help you segment your code for readability, and code reusability.
   - Functions can make use of an *input*, a *process* and an *output*.
 
+2. Files
+  - `open("filename.ext", permission ("r", "w", "a"))`
+  - Do stuff with file
+  - Close file
+
  ## Statistics
 
- 1. Modify to work in python 3
- 
+ 1. Modify code to work in python 3
+ 2. Run through code to see what happens.

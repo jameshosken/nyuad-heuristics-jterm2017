@@ -10,7 +10,6 @@
 
  ## Assignment Review - Rock, Paper, Scissors
 
-
  ## Content
 
 1. Functions

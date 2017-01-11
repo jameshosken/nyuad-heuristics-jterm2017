@@ -30,7 +30,7 @@ Day 04 Challenges:
 		3.1) Write a list [item1, item2, etc] of the planets, and print each one individually (on a new line).
 
 		3.2) 	
-			Write a list of numbers.
+			Write a list of numbe#4.1rs.
 			Find the average of the list.
 			Print out all the numbers higher than the average.
 

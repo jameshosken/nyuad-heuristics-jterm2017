@@ -28,7 +28,7 @@
 1. Dictionaries
   - 01_Dictionary_basics.py
 2. Auction Game
-  i. Network Basics
-  ii. Human vs Human (does it work?)
-  iii. Human vs bot (Algorithm Checking)
-  iv. Bot vs Bot (The ultimate battle)
+  1. Network Basics
+  2. Human vs Human (does it work?)
+  3. Human vs bot (Algorithm Checking)
+  4. Bot vs Bot (The ultimate battle)

@@ -9,7 +9,7 @@ import os
 import platform
 
 
-HOST = '10.225.77.36'    # Change this to server IP if running it over the internet
+HOST = 'localhost'    # Change this to server IP if running it over the internet
 
 # to act as a client
 PORT = 50018              # The server port

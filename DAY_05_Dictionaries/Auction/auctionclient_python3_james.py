@@ -60,12 +60,24 @@ def determinebid(itemsinauction, winnerarray, winneramount, numberbidders, playe
 
   Good luck!
   '''
-  return int(30*random.random()) #No error checking on this since the bot would not be able to change it's output, so make sure you're sending an integer!
+  
+  """
+  EXAMPLE BIDDING ALGORITHM:
+  """
+  
+  #First, set up default bid
+  myBid = 0
+  
+  #If this painting is picasso, bid half my $$$
+  if(itemsinauction[rd] == artists[0]):
+      myBid = standings[mybidderid]['money'] / 2
+
+  return int(myBid) #No error checking on this since the bot would not be able to change it's output, so make sure you're sending an integer!
 # DATA
 
-mybidderid = raw_input("Input team / player name : ").strip()  # this is the only thing that distinguishes the clients 
+mybidderid = input("Input team / player name : ").strip()  # this is the only thing that distinguishes the clients 
 while len(mybidderid) == 0 or ' ' in mybidderid:
-  mybidderid = raw_input("You input an empty string or included a space in your name which is not allowed (_ or / are all allowed)\n for example Emil_And_Nischal is okay\nInput team / player name: ").strip()
+  mybidderid = input("You input an empty string or included a space in your name which is not allowed (_ or / are all allowed)\n for example Emil_And_Nischal is okay\nInput team / player name: ").strip()
 
 moneyleft = 100 # should change over time
 winnerarray = [] # who won each round

@@ -44,13 +44,13 @@ def biggestFirst(targetamount):
 			
 			if(coinvalue+currentamount <= targetamount):		# Make sure we don't go over the target.
 				#Keep track of what's happening:
-				print str(coinvalue) + " fits!"
+				print(str(coinvalue) + " fits!")
 				#Append current coin value to our list of coins:
 				coinlist.append(coinvalue)
 				#Add this coin's value to the running total:
 				currentamount = currentamount + coinvalue
 
-				print "We have: " + str(len(coinlist)) + " + coins so far"
+				print("We have: " + str(len(coinlist)) + " + coins so far")
 				#Finally, quit this for loop to start a new 'round'
 				break	#Break
 			else:
@@ -60,7 +60,7 @@ def biggestFirst(targetamount):
 	return coinlist
 
 
-target = input("What number do you want change for?")	
+target = int(input("What number do you want change for?"))
 
 change = biggestFirst(target)
 print ("To get " + str(target) + " we'd need the following coins:")

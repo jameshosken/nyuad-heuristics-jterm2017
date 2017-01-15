@@ -12,7 +12,7 @@ import platform
 bot = False #This will change the interface and a few sleep statements of the server, it has two settings
 #one for bot play and one for manual play
 numbidders = 2 #change this for how many bots you want to play with
-HOST = '10.225.77.36' #change this to your own IP address if you want to use it over LAN/Wifi
+HOST = '10.225.77.121' #change this to your own IP address if you want to use it over LAN/Wifi
 
 if platform.system() == 'Windows':
   os.system('cls')

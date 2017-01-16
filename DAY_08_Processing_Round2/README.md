@@ -5,3 +5,8 @@
 1. Many analogies, pick one.
 
 ## Vectors
+
+1. Vectors are data with direction and magnitude. We can use them to store positions and velocities.
+
+## Creating Asteroids
+

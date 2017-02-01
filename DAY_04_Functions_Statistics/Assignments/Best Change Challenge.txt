@@ -11,6 +11,7 @@ Goal: You have to figure out how to get to that amount using the least number of
 	
 Go.
 
+---
 
 Hints:
 

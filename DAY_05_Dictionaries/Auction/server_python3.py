@@ -9,10 +9,10 @@ import os
 import platform
 
 
-bot = False #This will change the interface and a few sleep statements of the server, it has two settings
+bot = True #This will change the interface and a few sleep statements of the server, it has two settings
 #one for bot play and one for manual play
 numbidders = 2 #change this for how many bots you want to play with
-HOST = '10.225.77.121' #change this to your own IP address if you want to use it over LAN/Wifi
+HOST = 'localhost' #change this to your own IP address if you want to use it over LAN/Wifi
 
 if platform.system() == 'Windows':
   os.system('cls')
@@ -157,6 +157,8 @@ while(0 == doneflag):
           s.send('wait '.encode('utf-8'))
           #s.send("Not ready " + indata[0] + " to tell you about move " + str(j+1) )
         else:
+          print("INDATA")
+          print(indata)
           x = int(indata[1])
           if (x > (maxbudget - moneyspent[indata[0]])):
             x = -1 # indata[0] is not allowed to bid over budget
